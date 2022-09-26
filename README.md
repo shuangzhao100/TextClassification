@@ -2,6 +2,6 @@
 
 Experimented with classifiers to automate essay grading
 
-### Data:
+### Data files
 - train.tsv
 - test.tsv
