@@ -1,6 +1,7 @@
 # TextClassification
 
-Experimented with classifiers to automate essay grading
+### Task
+Experiment with classifiers to automate essay grading.
 
 ### Data files
 - train.tsv
@@ -23,3 +24,7 @@ Experimented with classifiers to automate essay grading
 -- SVM benchmark model (without tuning hyperparameters): test MSE is 3.23
 -- SVM hyperparameter tuing (using GridSearch): test MSE is 1.22
 (3) Experimented with the Universal Sentence Encoder
+- The Ridge model fed with a deep sentence embedder has the test MSE of 1.56.
+
+### Results
+The Ridge model fed with TF-IDF features has the best performance among all classifiers I experimented with.
