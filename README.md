@@ -19,11 +19,11 @@ Experiment with classifiers to automate essay grading.
 
 
 ### Model selection
-(1)Experimented with the Ridge model to aviod overfitting (test MSE - 1.04)
-(2)Experimented with the SVM model. SVM model works well with unstructred data, such as texual data in this essay grading task. 
+- Experimented with the Ridge model to aviod overfitting (test MSE - 1.04)
+- Experimented with the SVM model. SVM model works well with unstructred data, such as texual data in this essay grading task. 
 -- SVM benchmark model (without tuning hyperparameters): test MSE is 3.23
 -- SVM hyperparameter tuing (using GridSearch): test MSE is 1.22
-(3) Experimented with the Universal Sentence Encoder
+- Experimented with the Universal Sentence Encoder
 - The Ridge model fed with a deep sentence embedder has the test MSE of 1.56.
 
 ### Results
